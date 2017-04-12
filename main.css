@@ -40,10 +40,6 @@ header p {
   text-align: left;
 }
 
-img {
-  cursor:pointer;
-}
-
 
 /* css for the sliding toggle */
 .pull-me{
