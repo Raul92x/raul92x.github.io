@@ -152,16 +152,6 @@ section .row img {
   font-weight: bold;
 }
 
-#messages{
-  text-align: center;
-}
-.messages {
-  color: #24E536;
-  font-size: 14px;
-  font-family: Garamond, Times, Serif;
-  cursor:crosshair;
-}
-
 
 footer {
   font-size: 12px;
