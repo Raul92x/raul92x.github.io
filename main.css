@@ -6,24 +6,20 @@ body {
 header {
   padding: 20px 0;
 }
-
 header .row,
 footer .row {
   display: flex;
   align-items: center;
 }
-
 header h1 {
   font-weight: 700;
   margin: 0;
 }
-
 header nav {
   display: flex;
   justify-content: flex-end;
   cursor: pointer;
 }
-
 header p {
   padding: 0 20px;
   margin: 0;
@@ -78,30 +74,44 @@ header p {
   font-family: "Times New Roman";
   text-shadow: 5px 5px 10px #000000;
 }
-
 .jumbotron h2 {
   font-size: 80px;
   font-weight: 700;
   margin: 0;
   color: #fff;
 }
-
 .jumbotron h3 {
   margin: 0 0 20px;
   color: #fff;
+}
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #336BFF;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #336BFF;
+}
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
 }
 
 
 .intro {
   text-align: center;
 }
-
 .intro p{
   font-size: 20px;
   font-weight: bold;
   margin: 0 35px 30px;
   text-align: left;
 }
+
 
 section .row img {
   margin: 0 0 30px;
@@ -113,29 +123,10 @@ section .row img {
   background-repeat:   no-repeat;
   background-size:     cover;
 }
-
 .col-sm-6 {
   margin: 0 0 30px;
 }
 
-.btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: #fbd1d5;
-  text-shadow: none;
-  background-color: #ffffff;
-}
-
-.btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
-}
-
-.btn-secondary {
-  background-color: #E8DFE0;
-  color: #ffffff;
-  margin: 0 0 30px;
-}
 
 .aboutme {
   text-align: center;
