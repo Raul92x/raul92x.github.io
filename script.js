@@ -13,7 +13,7 @@ $(document).ready(function() {
     });
 
 
-  	$().hover(
+  	$('nav p').hover(
     	function(){
        		$(this).addClass('active');
     	},

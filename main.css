@@ -29,17 +29,6 @@ header p {
   margin: 0;
 }
 
-.intro {
-  text-align: center;
-}
-
-.intro p{
-  font-size: 20px;
-  font-weight: bold;
-  margin: 0 35px 30px;
-  text-align: left;
-}
-
 
 /* css for the sliding toggle */
 .pull-me{
@@ -85,23 +74,33 @@ header p {
   align-items: center;
   background-image: url('http://wallpapercave.com/wp/C0IS6UO.jpg');
   background-size: cover;
-  color: #ffffff;
-  height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+  height: 800px;
+  font-family: "Times New Roman";
+  text-shadow: 5px 5px 10px #000000;
 }
 
 .jumbotron h2 {
-  font-family: "Times New Roman";
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 700;
   margin: 0;
   color: #fff;
 }
 
 .jumbotron h3 {
-  font-family: "Times New Roman";
   margin: 0 0 20px;
   color: #fff;
+}
+
+
+.intro {
+  text-align: center;
+}
+
+.intro p{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 35px 30px;
+  text-align: left;
 }
 
 section .row img {
@@ -180,6 +179,8 @@ section .row img {
 /* activates hover effect from scipt file*/
 .active {
   background-color:#556677;
+  color: white;
+  text-transform: uppercase;
 }
 
 footer {
