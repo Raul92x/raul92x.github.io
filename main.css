@@ -95,11 +95,6 @@ header p {
   color: #ffffff;
   background-color: #336BFF;
 }
-.btn-secondary {
-  background-color: #E8DFE0;
-  color: #ffffff;
-  margin: 0 0 30px;
-}
 
 
 .intro {
@@ -113,6 +108,10 @@ header p {
 }
 
 
+.aboutme {
+  text-align: center;
+  margin: 0 0 20px;
+}
 section .row img {
   margin: 0 0 30px;
   width: 100%;
@@ -123,14 +122,9 @@ section .row img {
   background-repeat:   no-repeat;
   background-size:     cover;
 }
+
 .col-sm-6 {
   margin: 0 0 30px;
-}
-
-
-.aboutme {
-  text-align: center;
-  margin: 0 0 20px;
 }
 
 #contact h2 {
@@ -138,7 +132,12 @@ section .row img {
   font-family: times;
   font-weight: bold;
 }
-
+.social img {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  border-radius: 6px;
+}
 .social a {
   position: absolute;
   margin: 0px 2px;
@@ -147,48 +146,45 @@ section .row img {
   text-align: center;
   font-weight: bold;
 }
-
-.social img {
-  position: relative;
-  width: 75px;
-  height: 75px;
-  border-radius: 6px;
-}
-
 .social a:hover {
   background-color: blue;
   color:white;
   font-weight: bold;
 }
 
+#messages{
+  text-align: center;
+}
 .messages {
+  color: #24E536;
   font-size: 14px;
   font-family: Garamond, Times, Serif;
   cursor:crosshair;
 }
+
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+footer ul {
+  list-style: none;
+}
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+
+
 
 /* activates hover effect from scipt file*/
 .active {
   background-color:#556677;
   color: white;
   text-transform: uppercase;
-}
-
-footer {
-  font-size: 12px;
-  padding: 20px 0;
-}
-
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer li img {
-  width: 32px;
-  height: 32px;
 }

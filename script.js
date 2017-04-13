@@ -15,11 +15,7 @@ $(document).ready(function() {
 
   	$('nav p').hover(
     	function(){
-       		$(this).addClass('active');
-    	},
-    	function(){
-        	$(this).removeClass('active');
-    	}
-  	);
+       		$(this).toggleClass('active');
+    	});
 
 });
