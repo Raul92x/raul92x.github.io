@@ -4,8 +4,14 @@ body {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;	
+  background-color: blue;
   padding: 20px 0;
+  z-index: 1;
 }
+
 header .row,
 footer .row {
   display: flex;
