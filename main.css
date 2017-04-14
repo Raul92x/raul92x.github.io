@@ -99,7 +99,10 @@ body {
 }
 
 
+
+
 .intro h1{
+  @-ms-viewport{width: device-width;}
   text-align: center;
   font-family: 'Tangerine', serif;
   font-weight: bold;
