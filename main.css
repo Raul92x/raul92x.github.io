@@ -9,6 +9,14 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: #2A4CE5;
+}
+
+.navbar-inverse .navbar-brand{
+  color:black;
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
 }
 
 /* css for the sliding toggle */
@@ -58,7 +66,7 @@ body {
   background-image: url('http://wallpapercave.com/wp/C0IS6UO.jpg');
   background-size: cover;
   height: 800px;
-  font-family: "Times New Roman";
+  font-family: "Times New Roman"; 
   text-shadow: 5px 5px 10px #000000;
   margin-bottom: 0;
 }
@@ -67,10 +75,16 @@ body {
   font-weight: 700;
   margin: 0;
   color: #fff;
+  font-family: 'Tangerine', serif;
+  font-size: 100px;
+  text-shadow: 4px 4px 4px #aaa; 
 }
 .jumbotron h3 {
   margin: 0 0 20px;
   color: #fff;
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa; 
 }
 .btn.btn-primary {
   border-radius: 2px;
@@ -85,8 +99,12 @@ body {
 }
 
 
-.intro {
+.intro h1{
   text-align: center;
+  font-family: 'Tangerine', serif;
+  font-weight: bold;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
 }
 .intro p{
   font-size: 20px;
@@ -117,8 +135,10 @@ section .row img {
 
 #contact h2 {
   text-align: center;
-  font-family: times;
+  font-family: 'Tangerine', serif;
   font-weight: bold;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa; 
 }
 .social img {
   position: relative;
