@@ -3,40 +3,12 @@ body {
   font-weight: 300;
 }
 
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;	
-  background-color: blue;
-  padding: 20px 0;
-  z-index: 1;
-}
-header .row,
-footer .row {
-  display: flex;
-  align-items: center;
-}
-header h1 {
-  font-weight: 700;
-  margin: 0;
-}
-header nav {
-  display: flex;
-  justify-content: flex-end;
-  cursor: pointer;
-}
-header p {
-  padding: 0 20px;
-  margin: 0;
-}
-
-
 
 .navbar-inverse {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 16;
 }
 
 .carousel-inner > .item > img {
@@ -62,3 +34,10 @@ header p {
   font-family: Garamond, Times, Serif;
   cursor:crosshair;
 }
+
+
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
