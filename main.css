@@ -111,13 +111,12 @@ body {
 }
 */
 
-@media screen and (width: device-width;){
+@media screen and (max-width: 500px){
   .intro h1{
   text-align: center;
   font-family: 'Tangerine', serif;
   font-weight: bold;
-  font-size: 40px;
-  text-shadow: 4px 4px 4px #aaa;
+  font-size: 20px;
   }
 }
 
