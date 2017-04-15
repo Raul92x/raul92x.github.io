@@ -100,11 +100,11 @@ body {
 
 
 .intro h1{
-  @-ms-viewport{width: device-width;}
+
   text-align: center;
   font-family: 'Tangerine', serif;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 40px;
   text-shadow: 4px 4px 4px #aaa;
 }
 .intro p{
