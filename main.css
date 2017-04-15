@@ -98,11 +98,20 @@ body {
   background-color: #336BFF;
 }
 
+/*
+@media screen and (min-width : 0px) and (max-width : 767px){ 
+  @-ms-viewport{width: device-width;}
+  .intro h1{
+  text-align: center;
+  font-family: 'Tangerine', serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 4px 4px 4px #aaa;
+  }
+}
+*/
 
-@media screen and (min-width : 0px) and (max-width : 767px){
-  
-@-ms-viewport{width: device-width;}
-
+@media screen and (width: device-width;){
   .intro h1{
   text-align: center;
   font-family: 'Tangerine', serif;
