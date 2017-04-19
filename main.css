@@ -154,26 +154,10 @@ body {
   text-align: center;
   font-family: 'Tangerine', serif;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 80px;
   text-shadow: 4px 4px 4px #aaa;  
 }
 
-/*
-.aboutme {
-  text-align: center;
-  margin: 0 0 20px;
-}
-section .row img {
-  margin: 0 0 30px;
-  width: 100%;
-  height: 300px; 
-  position: relative;
-  float: left;
-  background-position: 50% 50%;
-  background-repeat:   no-repeat;
-  background-size:     cover;
-}
-*/
 
 #contact h2 {
   text-align: center;
