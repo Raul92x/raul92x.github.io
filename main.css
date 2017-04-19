@@ -173,9 +173,6 @@ section .row img {
   background-size:     cover;
 }
 
-.col-sm-6 {
-  margin: 0 0 30px;
-}
 
 #contact h2 {
   text-align: center;
@@ -184,21 +181,33 @@ section .row img {
   font-size: 48px;
   text-shadow: 4px 4px 4px #aaa; 
 }
-.social img {
+
+
+
+
+
+
+
+.col-sm-6 img {
+  display: block;
+  margin: auto;
+
   position: relative;
   width: 75px;
   height: 75px;
   border-radius: 6px;
 }
-.social a {
-  position: absolute;
+
+.col-sm-6 a {
+display: block;
   margin: 0px 2px;
   padding: 8px;
   border-radius: 6px;
   text-align: center;
   font-weight: bold;
 }
-.social a:hover {
+.col-sm-6 a:hover {
+  display: block;
   background-color: blue;
   color:white;
   font-weight: bold;
