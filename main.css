@@ -182,7 +182,6 @@ section .row img {
   font-size: 48px;
   text-shadow: 4px 4px 4px #aaa; 
 }
-
 .contact {
   display: flex;
   justify-content: center;
@@ -193,7 +192,7 @@ section .row img {
   border-radius: 6px;
 }
 .contact a {
-  margin: 0px 250px;
+
   padding: 8px 25px;
   border-radius: 6px;
   text-align: center;
@@ -207,15 +206,15 @@ section .row img {
 }
 
 
-footer .row {
-  display: flex;
-  align-items: center;
-}
 
 footer {
   font-size: 12px;
   padding: 20px;
-  width: 100%;
+}
+footer .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 footer .col-sm-8 {
   display: flex;
@@ -228,7 +227,6 @@ footer li img {
   width: 32px;
   height: 32px;
 }
-
 
 
 

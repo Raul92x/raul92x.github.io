@@ -3,8 +3,6 @@ $(document).ready(function() {
         $('.panel').slideToggle('slow');
     });
 
-    
-
   	$('nav p').hover(
     	function(){
        		$(this).toggleClass('active');
