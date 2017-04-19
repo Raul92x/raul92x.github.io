@@ -182,14 +182,17 @@ section .row img {
   text-shadow: 4px 4px 4px #aaa; 
 }
 
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
 
 
 
 
 
+.contact img {
 
-.col-sm-6 img {
-  display: block;
   margin: auto;
 
   position: relative;
@@ -198,15 +201,15 @@ section .row img {
   border-radius: 6px;
 }
 
-.col-sm-6 a {
-display: block;
+.contact a {
+
   margin: 0px 2px;
   padding: 8px;
   border-radius: 6px;
   text-align: center;
   font-weight: bold;
 }
-.col-sm-6 a:hover {
+.contact a:hover {
   display: block;
   background-color: blue;
   color:white;
