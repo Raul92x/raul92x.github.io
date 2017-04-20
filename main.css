@@ -134,7 +134,7 @@ body {
   align-items: center;
   background-image: url('http://wallpapercave.com/wp/C0IS6UO.jpg');
   background-size: cover;
-  height: 500px;
+  height: 550px;
   font-family: "Times New Roman"; 
   text-shadow: 5px 5px 10px #000000;
   margin-bottom: 0;
@@ -180,20 +180,62 @@ body {
     margin: 0 35px 30px;
     text-align: left;
   }
+
+
+
+  #skills h1{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-shadow: 4px 4px 4px #aaa;  
+  }
+
 }
 
 
 
-
-
-#skills h1{
+#skills {
+  color: white;
+  width: 100%;
+  padding-top: 60px;
+  margin-top: 120px;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
   background-color: rgb(34, 34, 34);
+}
+
+
+
+#skills h1 {
   color: white;
   text-align: center;
   font-family: 'Tangerine', serif;
   font-weight: bold;
   font-size: 80px;
   text-shadow: 4px 4px 4px #aaa;  
+}
+
+
+#skills .row {
+  padding: 10px 25px;
+}
+
+.cont-ab {
+  color: blue;
+  font-size: 36px;
+  width: 100%;
+  background-color: #FFF;
+  padding: 25px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+
+.cont-ab li{
+  color: black;
+  list-style: initial;
 }
 
 
