@@ -220,6 +220,7 @@ body {
 
 
 #skills .row {
+  display: flex;
   padding: 10px 25px;
 }
 
