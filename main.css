@@ -236,13 +236,20 @@ body {
 }
 
 .cont-ab {
-  color: blue;
+  color: #0977C7;
   font-size: 30px;
   width: 100%;
   background-color: #FFF;
   padding: 25px;
   border-radius: 7px;
   margin-bottom: 20px;
+}
+
+.cont-ab h4 {
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+
 }
 
 .cont-ab li{
