@@ -190,7 +190,7 @@ body {
     text-align: center;
     font-family: 'Tangerine', serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 5px;
     text-shadow: 4px 4px 4px #aaa;  
   }
 
@@ -207,7 +207,7 @@ body {
   }
 
   .cont-ab h4 {
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 300;
     text-align: center;
   }
