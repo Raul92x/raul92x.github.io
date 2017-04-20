@@ -185,13 +185,12 @@ body {
 
 
   #skills h1{
-    background-color: rgb(34, 34, 34);
     color: white;
     text-align: center;
     font-family: 'Tangerine', serif;
-    font-weight: bold;
-    font-size: 20px;
-    text-shadow: 4px 4px 4px #aaa;  
+
+    font-size: 50px;
+
   }
 
 
@@ -213,11 +212,8 @@ body {
   }
 
   .cont-ab {
-    color: blue;
     font-size: 10px;
     width: 100%;
-    background-color: #FFF;
-    border-radius: 7px;
     margin: 0 auto;
   }
 
@@ -234,7 +230,7 @@ body {
 #skills {
   color: white;
   width: 100%;
-  padding-top: 60px;
+  padding-top: 40px;
   margin-top: 40px;
   margin-bottom: 60px;
   padding-bottom: 60px;
@@ -246,7 +242,7 @@ body {
   text-align: center;
   font-family: 'Tangerine', serif;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 70px;
   text-shadow: 4px 4px 4px #aaa;  
 }
 
@@ -258,8 +254,7 @@ body {
 }
 
 .cont-ab {
-  color: #0977C7;
-  font-size: 30px;
+  font-size: 20px;
   width: 100%;
   background-color: #FFF;
   padding: 25px;
@@ -268,11 +263,17 @@ body {
 }
 
 .cont-ab h4 {
-  font-size: 50px;
+  color: #0977C7; 
+  font-size: 30px;
   font-weight: 300;
   text-align: center;
-
 }
+
+
+.cont-ab ol{
+  padding: 0;
+}
+
 
 .cont-ab li{
   color: black;
