@@ -206,7 +206,7 @@ body {
   }
 
   .cont-ab h4 {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 300;
     text-align: center;
   }
@@ -218,6 +218,12 @@ body {
     background-color: #FFF;
     border-radius: 7px;
     margin: 0 auto;
+  }
+
+  .cont-ab li{
+    color: black;
+    list-style: initial;
+    font-size: 15px;
   }
 
 }
@@ -233,8 +239,6 @@ body {
   padding-bottom: 60px;
   background-color: rgb(34, 34, 34);
 }
-
-
 
 #skills h1 {
   color: white;
