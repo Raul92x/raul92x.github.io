@@ -134,7 +134,7 @@ body {
   align-items: center;
   background-image: url('http://wallpapercave.com/wp/C0IS6UO.jpg');
   background-size: cover;
-  height: 550px;
+  height: 555px;
   font-family: "Times New Roman"; 
   text-shadow: 5px 5px 10px #000000;
   margin-bottom: 0;
@@ -189,7 +189,7 @@ body {
     text-align: center;
     font-family: 'Tangerine', serif;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 30px;
     text-shadow: 4px 4px 4px #aaa;  
   }
 
@@ -201,7 +201,7 @@ body {
   color: white;
   width: 100%;
   padding-top: 60px;
-  margin-top: 120px;
+  margin-top: 40px;
   margin-bottom: 60px;
   padding-bottom: 60px;
   background-color: rgb(34, 34, 34);
@@ -221,12 +221,13 @@ body {
 
 #skills .row {
   display: flex;
+  justify-content: center;
   padding: 10px 25px;
 }
 
 .cont-ab {
   color: blue;
-  font-size: 36px;
+  font-size: 30px;
   width: 100%;
   background-color: #FFF;
   padding: 25px;
