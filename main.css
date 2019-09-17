@@ -115,106 +115,78 @@ body {
 */
 
 
-
-
-@media screen and (max-width: 500px){
-  .jumbotron {
-    display: flex;
-    align-items: center;
-    background-image: url('http://wallpapercave.com/wp/C0IS6UO.jpg');
-    background-size: cover;
-    height: 560px;
-    font-family: "Times New Roman"; 
-    text-shadow: 5px 5px 10px #000000;
-    margin-bottom: 0;
-  }
-  .jumbotron h2 {
-    font-size: 60px;
-    font-weight: 700;
-    margin: 0;
-    color: #fff;
-    font-family: 'Tangerine', serif;
-    font-size: 100px;
-    text-shadow: 4px 4px 4px #aaa; 
-  }
-  .jumbotron h3 {
-    margin: 0 0 20px;
-    color: #fff;
-    font-family: 'Tangerine', serif;
-    font-size: 36px;
-    text-shadow: 4px 4px 4px #aaa; 
-  }
-  .btn.btn-primary {
-    border-radius: 2px;
-    border: 0px;
-    color: #336BFF;
-    text-shadow: none;
-    background-color: #ffffff;
-  }
-  .btn.btn-primary:hover {
-    color: #ffffff;
-    background-color: #336BFF;
-  }
-
+@media screen and (min-width: 980px){
   .intro h1{
     text-align: center;
     font-family: 'Tangerine', serif;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 48px;
     text-shadow: 4px 4px 4px #aaa;
   }
   .intro p{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     margin: 0 35px 30px;
     text-align: left;
   }
-
-
-
-  #skills h1{
-    color: white;
-    text-align: center;
-    font-family: 'Tangerine', serif;
-
-    font-size: 50px;
-
-  }
-
-
-  #skills .row {
-    font-size: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 10px 25px;
-    margin: 0 auto;
-    width: 80%;
-    height: 50%;
-  }
-
-  .cont-ab h4 {
-    font-size: 20px;
-    font-weight: 300;
-    text-align: center;
-  }
-
-  .cont-ab {
-    font-size: 10px;
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .cont-ab li{
-    color: black;
-    list-style: initial;
-    font-size: 15px;
-  }
-
 }
 
 
 
+
+#skills {
+  color: white;
+  width: 100%;
+  padding-top: 40px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+  background-color: rgb(34, 34, 34);
+}
+
+#skills h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Tangerine', serif;
+  font-weight: bold;
+  font-size: 70px;
+  text-shadow: 4px 4px 4px #aaa;  
+}
+
+
+#skills .row {
+  display: flex;
+  justify-content: center;
+  padding: 10px 25px;
+}
+
+.cont-ab {
+  font-size: 20px;
+  width: 100%;
+  background-color: #FFF;
+  padding: 25px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+
+.cont-ab h4 {
+  color: #0977C7; 
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+.cont-ab ol{
+  padding: 0;
+}
+
+
+.cont-ab li{
+  color: black;
+  list-style: none;
+  text-align: center;
+}
 
 
 #contact h2 {
