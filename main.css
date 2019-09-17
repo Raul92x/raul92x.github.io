@@ -3,7 +3,7 @@ body {
   font-weight: 300;
 }
 
-
+/* css for header/navbar */
 .navbar {
   margin: 0;
   position: fixed;
@@ -58,9 +58,9 @@ body {
   border-bottom-left-radius:5px;
   border-bottom-right-radius:5px;
 }
-/*------------------*/
 
 
+/*css for the Jumbotron*/
 .jumbotron {
   display: flex;
   align-items: center;
@@ -87,6 +87,8 @@ body {
   font-size: 48px;
   text-shadow: 4px 4px 4px #aaa; 
 }
+
+/* css for the button in the jumbotron???????*/
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
@@ -129,101 +131,7 @@ body {
   }
 }
 
-@media screen and (max-width: 500px){
-  .jumbotron {
-    display: flex;
-    align-items: center;
-    background-image: url('http://wallpapercave.com/wp/C0IS6UO.jpg');
-    background-size: cover;
-    height: 560px;
-    font-family: "Times New Roman"; 
-    text-shadow: 5px 5px 10px #000000;
-    margin-bottom: 0;
-  }
-  .jumbotron h2 {
-    font-size: 60px;
-    font-weight: 700;
-    margin: 0;
-    color: #fff;
-    font-family: 'Tangerine', serif;
-    font-size: 100px;
-    text-shadow: 4px 4px 4px #aaa; 
-  }
-  .jumbotron h3 {
-    margin: 0 0 20px;
-    color: #fff;
-    font-family: 'Tangerine', serif;
-    font-size: 36px;
-    text-shadow: 4px 4px 4px #aaa; 
-  }
-  .btn.btn-primary {
-    border-radius: 2px;
-    border: 0px;
-    color: #336BFF;
-    text-shadow: none;
-    background-color: #ffffff;
-  }
-  .btn.btn-primary:hover {
-    color: #ffffff;
-    background-color: #336BFF;
-  }
 
-  .intro h1{
-    text-align: center;
-    font-family: 'Tangerine', serif;
-    font-weight: bold;
-    font-size: 35px;
-    text-shadow: 4px 4px 4px #aaa;
-  }
-  .intro p{
-    font-size: 16px;
-    font-weight: bold;
-    margin: 0 35px 30px;
-    text-align: left;
-  }
-
-
-
-  #skills h1{
-    color: white;
-    text-align: center;
-    font-family: 'Tangerine', serif;
-
-    font-size: 50px;
-
-  }
-
-
-  #skills .row {
-    font-size: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 10px 25px;
-    margin: 0 auto;
-    width: 80%;
-    height: 50%;
-  }
-
-  .cont-ab h4 {
-    font-size: 20px;
-    font-weight: 300;
-    text-align: center;
-  }
-
-  .cont-ab {
-    font-size: 10px;
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .cont-ab li{
-    color: black;
-    list-style: initial;
-    font-size: 15px;
-  }
-
-}
 
 
 
