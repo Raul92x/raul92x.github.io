@@ -12,13 +12,13 @@ body {
   background-color: #2A4CE5;
   z-index: 16;
 }
-
 .navbar-inverse .navbar-brand{
   color:black;
   font-family: 'Tangerine', serif;
   font-size: 48px;
   text-shadow: 4px 4px 4px #aaa;
 }
+
 
 /* css for the sliding toggle */
 .pull-me{
@@ -88,6 +88,7 @@ body {
   text-shadow: 4px 4px 4px #aaa; 
 }
 
+
 /* css for the button in the jumbotron?????*/
 .btn.btn-primary {
   border-radius: 2px;
@@ -99,6 +100,107 @@ body {
 .btn.btn-primary:hover {
   color: #ffffff;
   background-color: #336BFF;
+}
+
+
+/* css for the skills and abilities section */
+#skills {
+  color: white;
+  width: 100%;
+  padding-top: 40px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+  background-color: rgb(34, 34, 34);
+}
+#skills h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Tangerine', serif;
+  font-weight: bold;
+  font-size: 70px;
+  text-shadow: 4px 4px 4px #aaa;  
+}
+#skills .row {
+  display: flex;
+  justify-content: center;
+  padding: 10px 25px;
+}
+.cont-ab {
+  font-size: 20px;
+  width: 100%;
+  background-color: #FFF;
+  padding: 25px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+.cont-ab h4 {
+  color: #0977C7; 
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+.cont-ab ol{
+  padding: 0;
+}
+.cont-ab li{
+  color: black;
+  list-style: none;
+  text-align: center;
+}
+
+
+/* css for the Contact section*/
+#contact h2 {
+  text-align: center;
+  font-family: 'Tangerine', serif;
+  font-weight: bold;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa; 
+}
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.contact img {
+  width: 75px;
+  height: 75px;
+  border-radius: 6px;
+}
+.contact a {
+  padding: 8px 25px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+}
+.contact a:hover {
+  display: block;
+  background-color: blue;
+  color:white;
+  font-weight: bold;
+}
+
+
+/* css for the footer section*/
+footer {
+  font-size: 12px;
+  padding: 20px;
+}
+footer .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+footer ul {
+  list-style: none;
+}
+footer li img {
+  width: 32px;
+  height: 32px;
 }
 
 /*
@@ -115,22 +217,12 @@ body {
 */
 
 
-@media screen and (min-width: 980px){
-  .intro h1{
-    text-align: center;
-    font-family: 'Tangerine', serif;
-    font-weight: bold;
-    font-size: 48px;
-    text-shadow: 4px 4px 4px #aaa;
-  }
-  .intro p{
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0 35px 30px;
-    text-align: left;
-  }
-}
 
+
+
+
+
+/*  added the css @media Rule so it can be mobile friendly*/
 @media screen and (max-width: 500px){
   .jumbotron {
     display: flex;
@@ -169,7 +261,6 @@ body {
     color: #ffffff;
     background-color: #336BFF;
   }
-
   .intro h1{
     text-align: center;
     font-family: 'Tangerine', serif;
@@ -183,9 +274,6 @@ body {
     margin: 0 35px 30px;
     text-align: left;
   }
-
-
-
   #skills h1{
     color: white;
     text-align: center;
@@ -194,8 +282,6 @@ body {
     font-size: 50px;
 
   }
-
-
   #skills .row {
     font-size: 10px;
     display: flex;
@@ -206,136 +292,22 @@ body {
     width: 80%;
     height: 50%;
   }
-
   .cont-ab h4 {
     font-size: 20px;
     font-weight: 300;
     text-align: center;
   }
-
   .cont-ab {
     font-size: 10px;
     width: 100%;
     margin: 0 auto;
   }
-
   .cont-ab li{
     color: black;
     list-style: initial;
     font-size: 15px;
   }
-
 }
-
-
-
-#skills {
-  color: white;
-  width: 100%;
-  padding-top: 40px;
-  margin-top: 40px;
-  margin-bottom: 60px;
-  padding-bottom: 60px;
-  background-color: rgb(34, 34, 34);
-}
-
-#skills h1 {
-  color: white;
-  text-align: center;
-  font-family: 'Tangerine', serif;
-  font-weight: bold;
-  font-size: 70px;
-  text-shadow: 4px 4px 4px #aaa;  
-}
-
-
-#skills .row {
-  display: flex;
-  justify-content: center;
-  padding: 10px 25px;
-}
-
-.cont-ab {
-  font-size: 20px;
-  width: 100%;
-  background-color: #FFF;
-  padding: 25px;
-  border-radius: 7px;
-  margin-bottom: 20px;
-}
-
-.cont-ab h4 {
-  color: #0977C7; 
-  font-size: 30px;
-  font-weight: 300;
-  text-align: center;
-}
-
-
-.cont-ab ol{
-  padding: 0;
-}
-
-
-.cont-ab li{
-  color: black;
-  list-style: none;
-  text-align: center;
-}
-
-
-#contact h2 {
-  text-align: center;
-  font-family: 'Tangerine', serif;
-  font-weight: bold;
-  font-size: 48px;
-  text-shadow: 4px 4px 4px #aaa; 
-}
-.contact {
-  display: flex;
-  justify-content: center;
-}
-.contact img {
-  width: 75px;
-  height: 75px;
-  border-radius: 6px;
-}
-.contact a {
-  padding: 8px 25px;
-  border-radius: 6px;
-  text-align: center;
-  font-weight: bold;
-}
-.contact a:hover {
-  display: block;
-  background-color: blue;
-  color:white;
-  font-weight: bold;
-}
-
-
-
-footer {
-  font-size: 12px;
-  padding: 20px;
-}
-footer .row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
-}
-footer ul {
-  list-style: none;
-}
-footer li img {
-  width: 32px;
-  height: 32px;
-}
-
 
 
 /* activates hover effect from scipt file*/
