@@ -291,6 +291,10 @@ footer li img {
     margin: 0 35px 30px;
     text-align: left;
   }
+}
+
+
+@media screen and (max-width: 100px){
   #skills h1{
     color: white;
     text-align: center;
@@ -316,7 +320,7 @@ footer li img {
   }
   .cont-ab {
     font-size: 10px;
-    width: 25%;
+    width: 100%;
     margin: 0 auto;
   }
   .cont-ab li{
