@@ -302,7 +302,8 @@ footer li img {
   #skills .row {
     font-size: 10px;
     display: flex;
-    justify-content: center;
+    flex-flow: row wrap;
+
     padding: 10px 25px;
 
   }
