@@ -150,6 +150,23 @@ body {
 }
 
 
+.intro h1{
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-weight: bold;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+.intro p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 35px 30px;
+    text-align: left;
+}
+
+
+
+
 /* css for the Contact section*/
 #contact h2 {
   text-align: center;
@@ -299,7 +316,7 @@ footer li img {
   }
   .cont-ab {
     font-size: 10px;
-    width: 100%;
+    width: 25%;
     margin: 0 auto;
   }
   .cont-ab li{
