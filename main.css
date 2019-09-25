@@ -240,7 +240,7 @@ footer li img {
 
 
 /*  added the css @media Rule so it can be mobile friendly*/
-@media screen and (max-width: 100px){
+@media screen and (max-width: 1000px){
   .jumbotron {
     display: flex;
     align-items: center;
