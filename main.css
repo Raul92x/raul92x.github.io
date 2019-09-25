@@ -240,7 +240,7 @@ footer li img {
 
 
 /*  added the css @media Rule so it can be mobile friendly*/
-@media screen and (max-width: 500px){
+@media screen and (max-width: 100px){
   .jumbotron {
     display: flex;
     align-items: center;
@@ -291,10 +291,6 @@ footer li img {
     margin: 0 35px 30px;
     text-align: left;
   }
-}
-
-
-@media screen and (max-width: 100px){
   #skills h1{
     color: white;
     text-align: center;
