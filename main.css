@@ -303,10 +303,9 @@ footer li img {
     font-size: 10px;
     display: flex;
     flex-flow: row wrap;
-    padding: 10px 25px;
+
     margin: 0 auto;
-    width: 80%;
-    height: 50%;
+    width: 100%;
   }
   .cont-ab h4 {
     font-size: 20px;
